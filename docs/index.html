@@ -1,0 +1,920 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Beach Please - Portfolio WordPress Theme - Documentation</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Apollo13">
+	<meta name="copyright" content="Apollo13">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2013-09-16T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	<link rel="stylesheet" href="assets/css/style2.0.css" media="screen">
+
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='200',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #, #);
+			  background-image: -ms-linear-gradient(top, #, #);
+			  background-image: -webkit-gradient(linear, 0 0, 0 %, from(#343838), to(#));
+			  background-image: -webkit-linear-gradient(top, #, #);
+			  background-image: -o-linear-gradient(top, #, #);
+			  background-image: linear-gradient(top, #, #);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#', endColorstr='#', GradientType=0);
+			  border-color: # # #bfbfbf;
+			  color:#;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: # # #bfbfbf;
+		  background-color: #;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-beach-please-portfolio-wordpress-theme">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#getting_started_how_to_do_it" title="Getting started(HOW TO DO IT?)">Getting started(HOW TO DO IT?)</a>
+				<ul>
+					<li><a href="#getting_started_how_to_do_it_inserting_images_in_theme">Inserting images in theme</a>
+					<li><a href="#getting_started_how_to_do_it_my_front_page_is_empty_or_gives_error_message">My front page is empty or gives error message.</a>
+					<li><a href="#getting_started_how_to_do_it_i_would_like_to_see_front_page_same_as_on_your_demo_how_to_do_it">I would like to see front page same as on your demo. How to do it?</a>
+					<li><a href="#getting_started_how_to_do_it_how_to_make_edit_top_navigation_menu_to_look_like_in_your_demo">How to make/edit top navigation menu to look like in your demo?</a>
+					<li><a href="#getting_started_how_to_do_it_i_would_like_to_modify_theme,_how_can_i_do_it">I would like to modify theme, how can I do it?</a>
+				</ul>
+			</li>
+			<li><a href="#for_updaters_need_to_know" title="For Updaters(need to know!)">For Updaters(need to know!)</a></li>
+			<li><a href="#installation_update" title="Installation & Update">Installation & Update</a>
+				<ul>
+					<li><a href="#installation_update_install">Install</a>
+					<li><a href="#installation_update_after_installation">After installation</a>
+					<li><a href="#installation_update_update_theme">Update theme</a>
+				</ul>
+			</li>
+			<li><a href="#installing_demo_data" title="Installing Demo data">Installing Demo data</a></li>
+			<li><a href="#main_settings_menu" title="Main Settings menu">Main Settings menu</a>
+				<ul>
+					<li><a href="#main_settings_menu_what_to_show_on_front_page">What to show on front page?</a>
+					<li><a href="#main_settings_menu_select_gallery_to_use_as_front_page">Select gallery to use as front page</a>
+					<li><a href="#main_settings_menu_layout_texts">Layout texts</a>
+					<li><a href="#main_settings_menu_contact_form_settings">Contact form settings</a>
+					<li><a href="#main_settings_menu_google_analytics">Google Analytics</a>
+				</ul>
+			</li>
+			<li><a href="#appearance_menu" title="Appearance menu">Appearance menu</a>
+				<ul>
+					<li><a href="#appearance_menu_main_appearance_settings">Main appearance settings</a>
+					<li><a href="#appearance_menu_customize_logo">Customize Logo</a>
+					<li><a href="#appearance_menu_static_pages">Static pages</a>
+					<li><a href="#appearance_menu_customize_header_and_footer">Customize header and footer</a>
+					<li><a href="#appearance_menu_custom_css">Custom CSS</a>
+				</ul>
+			</li>
+			<li><a href="#blog_archives_menu" title="Blog & Archives menu">Blog & Archives menu</a>
+				<ul>
+					<li><a href="#blog_archives_menu_main_settings">Main settings</a>
+				</ul>
+			</li>
+			<li><a href="#fonts_menu" title="Fonts menu">Fonts menu</a></li>
+			<li><a href="#works_menu" title="Works menu">Works menu</a>
+				<ul>
+					<li><a href="#works_menu_albums_list_page_settings">Albums list page settings</a>
+					<li><a href="#works_menu_works_list_page_settings">Works list page settings</a>
+					<li><a href="#works_menu_single_work_appearance_scroller_">Single work appearance(Scroller)</a>
+					<li><a href="#works_menu_single_work_appearance_slider_">Single work appearance(Slider)</a>
+				</ul>
+			</li>
+			<li><a href="#galleries_menu" title="Galleries Menu">Galleries Menu</a>
+				<ul>
+					<li><a href="#galleries_menu_gallery_appearance_bricks_theme_">Gallery appearance(Bricks theme)</a>
+					<li><a href="#galleries_menu_gallery_appearance_slider_theme_">Gallery appearance(Slider theme)</a>
+				</ul>
+			</li>
+			<li><a href="#social_menu" title="Social menu">Social menu</a></li>
+			<li><a href="#contact_page_menu" title="Contact page menu">Contact page menu</a>
+				<ul>
+					<li><a href="#contact_page_menu_google_map_drop_area">Google map drop area</a>
+					<li><a href="#contact_page_menu_map_settings">Map settings</a>
+				</ul>
+			</li>
+			<li><a href="#advance_menu" title="Advance menu">Advance menu</a>
+				<ul>
+					<li><a href="#advance_menu_comments_validation">Comments validation</a>
+					<li><a href="#advance_menu_span_class"label_like"theme_lightbox_span">Theme lightbox</a>
+					<li><a href="#advance_menu_use_compressed_js_amp_css">Use compressed JS &amp; CSS</a>
+				</ul>
+			</li>
+			<li><a href="#shortcodes" title="Shortcodes">Shortcodes</a></li>
+			<li><a href="#widgets" title="Widgets">Widgets</a>
+				<ul>
+					<li><a href="#widgets_filckr_widget">Filckr widget</a>
+				</ul>
+			</li>
+			<li><a href="#adding_frontpage" title="Adding Frontpage">Adding Frontpage</a></li>
+			<li><a href="#adding_frontpage_slider" title="Adding Frontpage Slider">Adding Frontpage Slider</a></li>
+			<li><a href="#adding_new_posts_pages" title="Adding New Posts/Pages">Adding New Posts/Pages</a>
+				<ul>
+					<li><a href="#adding_new_posts_pages_posts">Posts</a>
+					<li><a href="#adding_new_posts_pages_pages">Pages</a>
+					<li><a href="#adding_new_posts_pages_posts_list_blog">Posts list / blog</a>
+				</ul>
+			</li>
+			<li><a href="#adding_works" title="Adding Works">Adding Works</a>
+				<ul>
+					<li><a href="#adding_works_adding_works_list">Adding Works list</a>
+					<li><a href="#adding_works_add_new_work">Add new work</a>
+					<li><a href="#adding_works_adding_multiple_works_list_and_genres">Adding multiple Works list and Genres</a>
+				</ul>
+			</li>
+			<li><a href="#adding_galleries" title="Adding Galleries">Adding Galleries</a></li>
+			<li><a href="#contact_page" title="Contact page">Contact page</a></li>
+			<li><a href="#translating_theme" title="Translating theme">Translating theme</a></li>
+			<li><a href="#modification_of_theme" title="Modification of theme">Modification of theme</a>
+				<ul>
+					<li><a href="#modification_of_theme_changing_css">Changing CSS</a>
+					<li><a href="#modification_of_theme_custom_css">Custom CSS</a>
+					<li><a href="#modification_of_theme_changing_theme_functions">Changing theme functions</a>
+				</ul>
+			</li>
+			<li><a href="#support_forum" title="Support Forum">Support Forum</a></li>
+			<li><a href="#image_sizes_video_support_and_others" title="Image sizes video support and others">Image sizes video support and others</a>
+				<ul>
+					<li><a href="#image_sizes_video_support_and_others_template_image_sizes">Template image sizes</a>
+					<li><a href="#image_sizes_video_support_and_others_video_audio_support">Video/Audio support</a>
+				</ul>
+			</li>
+			<li><a href="#plugins_recomendations" title="Plugins recomendations">Plugins recomendations</a>
+				<ul>
+					<li><a href="#plugins_recomendations_wp_paginate">WP Paginate</a>
+					<li><a href="#plugins_recomendations_addthis">AddThis</a>
+					<li><a href="#plugins_recomendations_like_button">Like button</a>
+					<li><a href="#plugins_recomendations_captcha">Captcha</a>
+					<li><a href="#plugins_recomendations_rebuliding_thumbnails">Rebuliding Thumbnails</a>
+					<li><a href="#plugins_recomendations_flickr">Flickr</a>
+					<li><a href="#plugins_recomendations_high_dpi_screen_users_retina_">High DPI Screen users(Retina)</a>
+				</ul>
+			</li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Apollo13 2013<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Beach Please - Portfolio WordPress Theme</h1>
+	<h2>Documentation</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 04/9/2013</li>
+	<li>latest update: 09/16/2013</li>
+	<li>by: Apollo13</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#97;&#112;&#111;&#108;&#108;&#111;&#49;&#51;&#46;&#101;&#117;">&#105;&#110;&#102;&#111;&#64;&#97;&#112;&#111;&#108;&#108;&#111;&#49;&#51;&#46;&#101;&#117;</a></li>
+	</ul>
+	<p>Thank you for purchasing our theme. In case of any questions or doubts, do not hesitate to contact us via our Support Forum: https://customerpanel.me/support-forums/. We will do our best to solve any problem concerning the project. At the same time we invite you to visit often our profile on ThemeForest since there will be appearing the improvements of our project and the newest actualizations.
+</p>
+	</section>
+	
+	<section id="getting_started_how_to_do_it">
+	<div class="page-header"><h3>Getting started(HOW TO DO IT?)</h3><hr class="notop"></div>
+<p>
+	You have probably seen our demo page and this is why you baught this theme. To see most of this things in your page you will have to provide proper content for it, and here we will guide you how to achieve this.</p>
+<p>
+	&nbsp;</p>
+<h4 id="getting_started_how_to_do_it_inserting_images_in_theme">Inserting images in theme</h4>
+<p>
+	Every time you upload some image in settings(for logo, background) or in post/pages/albums if you want to use exactly same image as uploaded, then use <strong>Full Size</strong> option(screen shot). Other options will be available depending on image size you have just uploaded.<br>
+	<img alt="" src="assets/images/image_13.png"></p>
+<h4 id="getting_started_how_to_do_it_my_front_page_is_empty_or_gives_error_message">My front page is empty or gives error message.</h4>
+<p>
+	If you see empty front page after theme installation or message &quot;Apologies, but no results were found for the requested archive. &quot; it means you have to add some content or change front page to display something else.</p>
+<p>
+	You will have to add some <a href="#adding_new_posts_pages">posts/page</a> or <a href="#adding_works">add some works and works list page</a>. Next follow <a href="#setting_frontpage">this section</a>.</p>
+<h4 id="getting_started_how_to_do_it_i_would_like_to_see_front_page_same_as_on_your_demo_how_to_do_it">I would like to see front page same as on your demo. How to do it?</h4>
+<p>
+	Our front page is <strong>Works list</strong> page. Firstly you need to <a href="#adding_works">add some works and works list page</a>. Next select <strong>Works list</strong> in <a href="#setting_frontpage">this section</a>.</p>
+<h4 id="getting_started_how_to_do_it_how_to_make_edit_top_navigation_menu_to_look_like_in_your_demo">How to make/edit top navigation menu to look like in your demo?</h4>
+<p>
+	Check this <a href="#adding_menu">section.</a></p>
+<h4 id="getting_started_how_to_do_it_i_would_like_to_modify_theme,_how_can_i_do_it">I would like to modify theme, how can I do it?</h4>
+<p>
+	If you like to edit some CSS and JS, or maybe some theme behaviour you should check <a href="#compressed_options">compression options</a> and <a href="#modification_of_theme">theme modification section</a>.</p>
+</section>
+<section id="for_updaters_need_to_know">
+	<div class="page-header"><h3>For Updaters(need to know!)</h3><hr class="notop"></div>
+<p>
+	Since version <strong>1.3</strong> we have <strong>removed compressed scripts and styles</strong>. This were very good things if you won&#39;t make any changes in theme. In other case it was counter intuitive, when editing for example style.css made no changes in site.</p>
+<p>
+	We decided that such behaviour(compressing CSS &amp; JS) should be user choice made by installing plugin.<br>
+	If you choose any plugin for that please test it with theme before trusting it completely:-)</p>
+<p>
+	Are there any recommendations of plugins from us? Not yet. We have tested some plugins and none is good enough in our opinion, as many just to do too much. We are waiting for your opinions in that field:-)</p>
+<hr>
+<p>
+	Since version 1.2 we have changed back end media selector to one intrduced in Wordpress 3.5. You can now use it for works, galleries or for adding logo.</p>
+<p>
+	<img alt="" src="assets/images/image_20.png" style="width: 572px; height: 503px;"></p>
+<p>
+	<img alt="" src="assets/images/image_21.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Twitter widget</strong></p>
+<p>
+	Also cause of change in API and policy of twitter we had to remove Twitter widget from our theme as it was no longer usable. Instead we recommend to use <a href="http://bluedogwebservices.com/wordpress-plugin/twitter-widget-pro/">http://bluedogwebservices.com/wordpress-plugin/twitter-widget-pro/</a></p>
+<p>
+	To use you will have to provide twitter account info as explained in plugin instructions.</p>
+</section>
+<section id="installation_update">
+	<div class="page-header"><h3>Installation & Update</h3><hr class="notop"></div>
+<h4 id="installation_update_install">Install</h4>
+<p>
+	To install theme you can:</p>
+<ol>
+	<li>
+		Upload it via FTP(safer)
+		<ul>
+			<li>
+				Download ZIP file from ThemeForest and find in it <strong>beach_apollo.zip</strong>(theme file)</li>
+			<li>
+				Unpack files from <strong>beach_apollo.zip. </strong>You should now have directory <strong>beach_apollo</strong> and in it other directories and files like <em>404.php, home.php, index.php etc.</em></li>
+			<li>
+				upload whole <strong>beach_apollo</strong> folder to <strong>/wp-content/themes/</strong> in your WordPress installation</li>
+			<li>
+				login to admin panel in WordPress, and go to <em><strong>Appearance-&gt;Themes</strong></em> and click Activate below <strong>Beach Please</strong> theme</li>
+		</ul>
+	</li>
+	<li>
+		Upload it via admin panel(can get error while upload on slower connections)
+		<ul>
+			<li>
+				Download ZIP file from ThemeForest and find in it <strong>beach_apollo.zip</strong>(theme file)</li>
+			<li>
+				go to <em><strong>Appearance-&gt;Themes-&gt;Install Themes(Tab)-&gt;Upload </strong></em>and choose file <strong>beach_apollo.zip</strong></li>
+			<li>
+				go to <em><strong>Appearance-&gt;Themes</strong></em> and click &quot;Activate&quot; below <strong>Beach Please</strong> theme</li>
+		</ul>
+	</li>
+</ol>
+<p>
+	After that you will see new menu named <strong><em>BP Apollo13 theme </em></strong>and that is where all fun begins :-) Also you will see <em><strong>My Works</strong></em> and <strong><em>Galleries</em></strong> menus. We will write about it later. &nbsp;</p>
+<h4 id="installation_update_after_installation">After installation</h4>
+<p>
+	<strong><a name="permalinks"></a>Set permalinks</strong></p>
+<p>
+	It is good practice to set permalinks for your blog. Go to <em><strong>Settings-&gt;Permalinks</strong></em> and set anything other then <strong>default </strong>seetings.</p>
+<p>
+	<strong>Social Plugin</strong></p>
+<p>
+	If you wish to use social options for that is compatible with theme then you should install <a href="http://wordpress.org/extend/plugins/addthis/">AddThis Social Bookmarking Widget</a></p>
+<p>
+	<strong>Add menu</strong></p>
+<p>
+	<a name="adding_menu"></a>Next you should choose menu to use in theme. It is very simple. Go to <em><strong>Appearance-&gt;Menus</strong></em>, create some menu(even with one position) and select available menu in <strong>Theme locations-&gt; Site Navigation</strong>. <a href="http://codex.wordpress.org/WordPress_Menu_User_Guide">Read more about creating WordPress menu.</a></p>
+<p>
+	<img alt="" src="assets/images/image_15.jpg"></p>
+<p>
+	&nbsp;</p>
+<p>
+	If you want to <strong>add Single Work/Gallery to menu</strong> you have to dig in WordPress hidden options;-). Just look at image below and enable them</p>
+<p>
+	<img alt="" src="assets/images/image_14.png"></p>
+<p>
+	&nbsp;</p>
+<p>
+	Next you should scan through Theme options to set everything you need.</p>
+<p>
+	&nbsp;</p>
+<h4 id="installation_update_update_theme">Update theme</h4>
+<p>
+	As this theme is commercial one, for now we <strong>don&#39;t provide auto update</strong> option for theme, as this will lead to easily stealing our work. In future this may change, but for now updates are only available on ThemeForest in place where you have downloaded your first version of theme:-) Although WordPress will inform you about new version of theme, but you still will have to go to ThemeForest site.</p>
+<p>
+	When you got zip file with theme, best way to update theme is to use plugin such as <a href="http://wordpress.org/extend/plugins/easy-theme-and-plugin-upgrades/">http://wordpress.org/extend/plugins/easy-theme-and-plugin-upgrades/</a>. <strong>If you have problems with updating theme</strong> from Wordpress admin panel, you can also manually delete theme via FTP and upload new version. You wont loose your theme settings.</p>
+<p>
+	If you have made some changes in theme files you will have to manually update to keep your changes.</p>
+<p>
+	<strong>Remember to always backup your data before update!</strong>(or cry if you didn&#39;t and something went totally wrong)</p>
+<p>
+	<strong>Use of Easy Theme and Plugin Upgrades</strong></p>
+<p>
+	Upgrading a Theme(copied form plugin page)</p>
+<ol>
+	<li>
+		Download the latest zip file for your theme.</li>
+	<li>
+		Log into your WordPress site.</li>
+	<li>
+		Go to <em><strong>Appearance &gt; Themes</strong></em>.</li>
+	<li>
+		Click the &quot;Install Themes&quot; tab.</li>
+	<li>
+		Click the Upload link below the main page tabs.</li>
+	<li>
+		Select the zip file with the new theme version to install.</li>
+	<li>
+		Select &quot;Yes&quot; from the &quot;Upgrade existing theme?&quot; option.</li>
+	<li>
+		Click &quot;Install Now&quot;.</li>
+</ol>
+</section>
+<section id="installing_demo_data">
+	<div class="page-header"><h3>Installing Demo data</h3><hr class="notop"></div>
+<p>	<a name="demo_data_images_sizes_and_others"></a></p>
+<h3>
+	Demo data</h3>
+<p>	If you really need to see your new site as our demo page, then this is section for you. This is why we provide sample data, if you like to see how it is all made from backend in admin page. If you are confused about options in theme, we advise to use it only to see how things are made. After that,&nbsp; you should clean your WordPress so you don&#39;t have any unwanted content ;-)</p>
+<p>	<strong>How to install sample data:</strong></p>
+<ul>	<li>		Locate the <strong>sample_data.xml</strong> file in <strong>data</strong> folder in file downloaded form ThemeForest</li>
+	<li>		Open <em><strong>Tools-&gt;Import</strong></em> menu and choose <strong>WordPress</strong> option(Installation may be needed first).</li>
+	<li>		Upload <strong>sample_data.xml </strong>file.</li>
+	<li>		On next page you should check <strong>Download and import file attachments</strong></li>
+</ul>
+<p>	But it would be simple if this will end here :-) Import will probably fail(cause of timeout while downloading images), so you will have to repeat above steps few times, till you get success message. After this fallow next steps:</p>
+<ul>	<li>		Go to <em><strong>Settings-&gt;Reading-&gt;Front page displays</strong></em> and do <a href="#adding_frontpage">this</a></li>
+	<li>		Go to <em><strong>BP Apollo13 theme</strong></em><em><strong>-&gt;Main settings-&gt;What to show on front page?</strong></em> set to <strong>Works list</strong></li>
+	<li>		Go to <em><strong>Appearance-&gt;Menus-&gt;Theme locations-&gt; Site Navigation</strong></em> select available menu(<a href="#adding_menu">adding menu</a>).</li>
+	<li>		You may need to clean menu listed on the right couse it may have &#39;doubles&#39; due to many import atempts.</li>
+	<li>		Widgets will be totaly no good, so go to <em><strong>Appearance-&gt;Widgets</strong></em> and make some cleaning and inserting.</li>
+	<li>		Last thing we have to create <strong>user.css</strong> file from default settings. To do that, we have to edit any setting of theme. Go to <em><strong>BP Apollo13 theme-&gt;Appearance-&gt;Main appearance settings-&gt;Background color</strong></em> and set to any color. But for real, you can change any option of theme to recreate <strong>user.css</strong> file.</li>
+	<li>		Theme should look good enough now.</li>
+</ul>
+<p>	&nbsp;</p>
+</section>
+<section id="main_settings_menu">
+	<div class="page-header"><h3>Main Settings menu</h3><hr class="notop"></div>
+<p class="info">
+	If you wish to use theme default value for each option(it may sometimes be different frome theme initial value) just <strong>delete whole text</strong> in input from this option.</p>
+<p>	<a name="setting_frontpage"></a></p>
+<h4 id="main_settings_menu_what_to_show_on_front_page">What to show on front page?</h4>
+<p>	Here you set what you wish to see on frontpage. You can choose from:</p>
+<ul>	<li>		<strong>page</strong> - static page added in Pages menu,</li>
+	<li>		<strong>post list(blog) - </strong>it is default WordPress front page,</li>
+	<li>		<strong>works list</strong> - list of all works(you can also add it as seperate page),</li>
+	<li>		<strong>galleries list</strong> - list of all galleries(you can also add it as seperate page),</li>
+	<li>		<strong>single gallery</strong></li>
+	<li>		<strong>Revolution slider</strong></li>
+</ul>
+<p>	For proper work of theme you should define front-page and blog page:</p>
+<ul>	<li>		Go to <em><strong>Settings-&gt;Reading-&gt;A static page</strong></em></li>
+	<li>		as Front page <strong>set some empty page </strong>you created in <em><strong>Pages menu</strong></em>, for example you can name it &quot;Frontpage&quot;</li>
+	<li>		as Posts page use<strong> another empty page </strong>named for exapmle &quot;Blog&quot;.</li>
+</ul>
+<p>	<img alt="" src="assets/images/image_24.png" style="width: 596px; height: 192px;"></p>
+<h4 id="main_settings_menu_select_gallery_to_use_as_front_page">Select gallery to use as front page</h4>
+<p>	If as front page you choose <strong>gallery</strong> then here you can select which one should be displayed.</p>
+<h4 id="main_settings_menu_layout_texts">Layout texts</h4>
+<p>	You have there texts that you can fill or not: <strong>Under logo text</strong>, <strong>Footer text</strong>, and <strong>Copyright text </strong></p>
+<h4 id="main_settings_menu_contact_form_settings">Contact form settings</h4>
+<p>	Give e-mail address for contact page form or left empty to use admin e-mail.</p>
+<h4 id="main_settings_menu_google_analytics">Google Analytics</h4>
+<p>	Code for statistics from google. It should be full code like this:</p>
+<pre>
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+&nbsp; var _gaq = _gaq || [];
+&nbsp; _gaq.push([&#39;_setAccount&#39;, &#39;UA-0000000-11&#39;]);
+&nbsp; _gaq.push([&#39;_trackPageview&#39;]);
+
+&nbsp; (function() {
+&nbsp;&nbsp;&nbsp; var ga = document.createElement(&#39;script&#39;); ga.type = &#39;text/javascript&#39;; ga.async = true;
+&nbsp;&nbsp;&nbsp; ga.src = (&#39;https:&#39; == document.location.protocol ? &#39;https://ssl&#39; : &#39;http://www&#39;) + &#39;.google-analytics.com/ga.js&#39;;
+&nbsp;&nbsp;&nbsp; var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(ga, s);
+&nbsp; })();
+
+&lt;/script&gt;</pre>
+<p>	&nbsp;</p>
+</section>
+<section id="appearance_menu">
+	<div class="page-header"><h3>Appearance menu</h3><hr class="notop"></div>
+<p class="info">
+	If you wish to use theme default value for each option(it may sometimes be different frome theme initial value) just <strong>delete whole text</strong> in input from this option. Leaving some options empty may give odd results, so <strong>always check your changes</strong>.</p>
+<p>	Here you have few sections with few settings in each. Lets check them out:</p>
+<h4 id="appearance_menu_main_appearance_settings">Main appearance settings</h4>
+<p>	<strong><span class="label-like">Favicon </span></strong><span class="label-like">upload here image</span> that will be visible as icon of our site. We provide default one and you can use it:-)</p>
+<p>	Next there options(<strong>Custom background image, How to fit background image </strong>and<strong> Background color</strong>) is to set <strong>global background</strong> that can be visible on all pages, galleries, works list and single work. It can be overwritten in each of those types.<br>
+	<strong><label for="headings_color">Headings/Titles color</label> </strong>sets color for ale titles on page(post title, sidebar titles, etc.) and also color for Titles when they are links. <strong>Headings/Titles color hover</strong> works only on links. You can also choose font-weight and text-transform for titles.</p>
+<p>	<strong>Links color</strong> and<strong> hover color</strong> set colors of links on whole page(without title links and few exceptions).</p>
+<h4 id="appearance_menu_customize_logo">Customize Logo</h4>
+<p>	Here you upload logo for your blog or use text one. Uploaded logo will be resized by CSS to fit layout. Specially to cover devices with HIGH DPI screens(like RETINA) we added option <strong>High DPI logo size in %</strong>. Now read carefully ;-)</p>
+<p>	By default there is 180px wide space for logo. If you upload logo that is bigger then that about ~40% or more(250px wide) then you can set this option(High DPI logo size in %) to 100% and everything will look good and sharp. If you upload smaller logo then you will have to set this to some smaller value, 75% should good in most cases.<br>
+	To be precise: this setting will shrink to <strong>XX%</strong> of your original logo on High DPI devices, but thanks to this it will look sharp.</p>
+<p>	Here is table of values for uploaded logo:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>
+				<strong>Image width</strong></td>
+			<td>
+				<strong>Suggested setting value</strong></td>
+		</tr>
+		<tr>
+			<td>
+				&gt; 250px</td>
+			<td>
+				95% - 100%</td>
+		</tr>
+		<tr>
+			<td>
+				200px - 250px</td>
+			<td>
+				80% - 95%</td>
+		</tr>
+		<tr>
+			<td>
+				150px - 200px</td>
+			<td>
+				65% - 80%</td>
+		</tr>
+		<tr>
+			<td>
+				&lt; 150px</td>
+			<td>
+				50% - 65%</td>
+		</tr>
+	</tbody>
+</table>
+<p class="warning">
+	For really small logos this setting may have no effect, but you can always type in input smaller number then 50%.</p>
+<p>	<br>
+	<img alt="" src="assets/images/image_13.png"></p>
+<h4 id="appearance_menu_static_pages">Static pages</h4>
+<p>	Here you can set global options for static pages like <strong>page layout</strong> and <strong>content color</strong>. Both settings can be overridden in each page.&nbsp;</p>
+<h4 id="appearance_menu_customize_header_and_footer">Customize header and footer</h4>
+<p>	Here you can set background color of header&amp; footer, <strong>colors</strong> and <strong>sizes</strong> of <strong>texts and links</strong> in that area, also various seetings about <strong>main menu</strong> and switch on <strong>serach form</strong>.</p>
+<p>	You can also select <strong>color scheme</strong> for this area which will be base for any customization you will select next.</p>
+<p>	If you don&#39;t use <strong>icons for menu</strong> then it would be good to switch off <strong>Menu icons option</strong> to save some bandwidth.</p>
+<h4 id="appearance_menu_custom_css">Custom CSS</h4>
+<p>	Here you can add changes to main CSS. Often if you will ask on forum for tweaks you will have to insert them in here:-)</p>
+</section>
+<section id="blog_archives_menu">
+	<div class="page-header"><h3>Blog & Archives menu</h3><hr class="notop"></div>
+<h4 id="blog_archives_menu_main_settings">Main settings</h4>
+<p>	First explenation of few single options:</p>
+<p>	<strong><span class="label-like">Type of post excerpts </span></strong><span class="label-like">- </span>Setting manual or automatic excerpts for posts. You can read more <a href="#posts_list">here</a>. Automatic excerpts will not format post. It means all shortcodes and link will be displayed as raw text. Best to test it by yourself.<br>
+	<strong> </strong></p>
+<p>	<strong>Masonry brick width/margin</strong> - here you set dimension and margin of bricks. It is only base width, as brick will stretch up to 120% of width to fill up free space.</p>
+<p>	<strong>Author info in post</strong> - will display box about author under post content. Info about each author can be set in Users menu.</p>
+<p>	<strong>Background color under post list</strong> - obvious;-)</p>
+<p>	Now we will describe options that are common for blog list and each post(but can be set separately)</p>
+<p>	<strong>Blog/Archive/Post sidebar</strong> - Blog and archive setting is connected. Each post can overwrite this setting. Sidebar will not show up if Blog sidebar don&#39;t have any widgets.</p>
+<p>	<strong><span class="label-like">Display post Media</span></strong> -&nbsp; should featured image/video be displayed</p>
+<p>	<strong><span class="label-like">Post meta: Date</span></strong> -&nbsp; should date of post be displayed</p>
+<p>	<strong><span class="label-like">Post meta: Author</span></strong> -&nbsp; should author of post be displayed</p>
+<p>	<strong><span class="label-like">Post meta: Comments number</span></strong> -&nbsp; should link to comments of post be displayed</p>
+<p>	<strong><span class="label-like">Post meta: Tags</span></strong> -&nbsp; should tags of post be displayed</p>
+<p>	<strong><span class="label-like">Post meta: Categories</span></strong> -&nbsp; should categories of post be displayed</p>
+</section>
+<section id="fonts_menu">
+	<div class="page-header"><h3>Fonts menu</h3><hr class="notop"></div>
+<p class="info">
+	If you wish to use theme default value for each option(it may sometimes be different frome theme initial value) just <strong>delete whole text</strong> in input from this option. Leaving some options empty may give odd results, so <strong>always check your changes</strong>.</p>
+<p>	Here you can choose font for your page. You can set font for 3 main layout elements:</p>
+<ol>
+	<li>		<strong>Content</strong> - text in posts/pages, and other places with lot of text.</li>
+	<li>		<strong>Titles</strong></li>
+	<li>		<strong>Interactive elements</strong> - top menu, labels, etc.</li>
+</ol>
+<p>	<br>
+	If you choose <strong>classic font</strong> then remember that this setting depends on fonts installed on client device.<br>
+	If you choose <strong>google font</strong> then remember to choose needed variants and subsets. For preview, google font is loaded with variants regular and 700, and all available subsets. You have to select what subset of chars do you need for your language, and also what styles you wish to use.</p>
+<p>	For example, fonts for titles should always be selected with bold style(600 or 700), unless it is set different, cause in other case, browser will try to emulate bold face of font, and it might look strange. Same with font for content, you should choose font that have bold, italic and maybe italic bold style.<br>
+	On other hand if some varaint will not be used in your page you shouldn&#39;t select it, cause it will only make loading of your page slower. Same go for subsets.</p>
+<p>	If you will write mainly in english then you should be good with almost any font. If your language has some different chars you should always test your selected font. For that you can double click sample text in above font selecting, write your special chars, and double click again to check if font will render them correctly. Unfortunately for preview we load google font with all available subsets, so to know which subsets you have to check in font selection, you will have to test it live.</p>
+<p>	It is good practice to not use too many different fonts, and also to select some classic font for content.</p>
+</section>
+<section id="works_menu">
+	<div class="page-header"><h3>Works menu</h3><hr class="notop"></div>
+<h4 id="works_menu_albums_list_page_settings">Albums list page settings</h4>
+<p class="warning">
+	If you set <a href="#permalinks">Permalinks</a> then you should follow this rule about Works list page slug.</p>
+<p>	Most important thing is to <strong>don&#39;t create page</strong> with same slug as set in <strong>Work slug name</strong>, or u may see weird and not happy things. <strong>You have to set some slug, dont&#39;t leave it empty</strong>.<br>
+	Best to just leave it as default.</p>
+<p>	You can also deactivate <strong>comments</strong>, and disable display of <strong>subtitles</strong> and <strong>genres</strong>.</p>
+<h4 id="works_menu_works_list_page_settings">Works list page settings</h4>
+<p>	<strong>Works main page</strong> - Select page that is your Works list page. It will make working some features. If you setup Work list as your front page then you don&#39;t have to set any page here.</p>
+<p>	<strong>Cover width/height/margin</strong> - Here you set diemnsions of bricks. They are mainly fluid, as bricks will try to take full width of avaliable content, so they will strech up to 120% of <strong>bricks width</strong> you will set here. If you set brick height to 0, images will not be cropped, and will behave more like puzzles.</p>
+<h4 id="works_menu_single_work_appearance_scroller_">Single work appearance(Scroller)</h4>
+<p>	Here you setup height of all scrollers used in works.</p>
+<h4 id="works_menu_single_work_appearance_slider_">Single work appearance(Slider)</h4>
+<p>	You set here <strong>height, interval </strong>and<strong> transitions speed</strong> for all works sliders. You can also decide should <strong>titles</strong> and <strong>list of slides</strong> be visible. <strong>Autoplay, Transition type</strong> and <span class="label-like"><strong>Random slide order</strong> can be set in each work.</span></p>
+</section>
+<section id="galleries_menu">
+	<div class="page-header"><h3>Galleries Menu</h3><hr class="notop"></div>
+<h4 id="galleries_menu_gallery_appearance_bricks_theme_">Gallery appearance(Bricks theme)</h4>
+<p>	<strong>Brick width/height/margin</strong> - Here you set diemnsions of bricks. They are mainly fluid, as bricks will try to take full width of avaliable content, so they will strech up to 120% of <strong>bricks width</strong> you will set here. If you set brick height to 0, images will not be cropped, and will behave more like puzzles.</p>
+<h4 id="galleries_menu_gallery_appearance_slider_theme_">Gallery appearance(Slider theme)</h4>
+<p>	You set here <strong>height, interval </strong>and<strong> transitions speed</strong> for all galleries sliders. You can also decide should <strong>titles</strong> and <strong>list of slides</strong> be visible. <strong>Autoplay, Transition type</strong> and <span class="label-like"><strong>Random slide order</strong> can be set in each gallery.</span></p>
+</section>
+<section id="social_menu">
+	<div class="page-header"><h3>Social menu</h3><hr class="notop"></div>
+<p>	Here you provide links to social profiles you have. Nothing new :-) You can also set icons set(circle/diamond white,black or color)</p>
+<p>	You can drag &amp; drop social items to set them in order you wish to see on your page.</p>
+<p class="info">
+	Only filled inputs will activate each social icon. Not filled = not shown :-)</p>
+<p>	<img alt="" src="assets/images/image_6.png"></p>
+</section>
+<section id="contact_page_menu">
+	<div class="page-header"><h3>Contact page menu</h3><hr class="notop"></div>
+<p>	Here are special settings for contact page. You&nbsp; can setup here google map that will be visible in background of contact page.</p>
+<h4 id="contact_page_menu_google_map_drop_area">Google map drop area</h4>
+<p>	If you paste here link from google maps, then all setting of map will be tuned right away. Just:</p>
+<ol>
+	<li>		Go to <a href="https://maps.google.com/">https://maps.google.com/ </a></li>
+	<li>		Center map, zoom in on desired place</li>
+	<li>		Switch to desired map type</li>
+	<li>		Copy map link(screen shot)</li>
+	<li>		Paste it to <strong>drop area</strong></li>
+	<li>		Done:-)</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_10.png" style="width: 785px; height: 254px;"></p>
+<h4 id="contact_page_menu_map_settings">Map settings</h4>
+<p>	<strong><span class="label-like">Background map</span></strong> - You can decide to switch map on or off</p>
+<p>	<strong>Latitude, Longitude</strong> - Use format Latitude, Longitude (ex. 50.854817, 20.644566)</p>
+<p>	<strong>Map type, zoom level</strong> - initial look of map</p>
+<p>	<strong>Marker title</strong> and <strong>Info window content </strong>- here you can add some information about the place that marker is pointing out.</p>
+</section>
+<section id="advance_menu">
+	<div class="page-header"><h3>Advance menu</h3><hr class="notop"></div>
+<h4 id="advance_menu_comments_validation">Comments validation</h4>
+<p>	<span class="label-like">If you want to use some plugin to validate forms in theme, then you should probably turn off theme validation.</span></p>
+<p>	<span class="label-like">Theme validation works in <strong>comments form</strong> and in <strong>theme contact form</strong>.</span></p>
+<h4 id="advance_menu_span_class"label_like"theme_lightbox_span"><span class="label-like">Theme lightbox</span></h4>
+<p>	If you wish to use some other plugin/script for images and items switch it off.</p>
+<p>	<a name="compressed_options"></a></p>
+<h4 id="advance_menu_use_compressed_js_amp_css">Use compressed JS &amp; CSS</h4>
+<p>	By default theme uses compressed files so it speeds up loading time of your page. If you need to edit theme in CSS or JS you will have to turn off this options. It will make theme load normal files like <strong>style.css </strong>instead of <strong>compressed.css</strong>.</p>
+<p>	After edit you can make again compressed files by using online compressor like <a href="http://www.refresh-sf.com/yui/">www.refresh-sf.com/yui/</a></p>
+</section>
+<section id="shortcodes">
+	<div class="page-header"><h3>Shortcodes</h3><hr class="notop"></div>
+<p>	In theme we use shortcodes editor. You can see it below:</p>
+<ul>	<li>		post editor</li>
+	<li>		page editor</li>
+	<li>		work editor</li>
+</ul>
+<p>	Use it to insert predefined elements for your content. To see available shortcodes in theme check <a href="http://themes.apollo13.eu/bp/shortcodes/">http://themes.apollo13.eu/bp/shortcodes/</a> and select shortcode category from submenu.</p>
+<p>	<img alt="" src="assets/images/image_5.jpg" style="width: 597px; height: 282px;"></p>
+<p>	You can also use <a href="http://codex.wordpress.org/Embeds">WordPress embeds</a>. Just select <strong>emebeds</strong> from shortcode menu, and insert your link for embed.</p>
+</section>
+<section id="widgets">
+	<div class="page-header"><h3>Widgets</h3><hr class="notop"></div>
+<p>	In Appearance-&gt;widgets menu you will see set of widgets. To use it just drag and drop them to sidebar you would like to see them. Available sidebars:</p>
+<ul>	<li>		Blog sidebar - Widgets from this sidebar will appear on blog, single post, search results, archive page and 404 error page.</li>
+</ul>
+<p>	<strong>Available widgets:</strong></p>
+<p>	<img alt="" src="assets/images/image_26.png"></p>
+<h4 id="widgets_filckr_widget">Filckr widget</h4>
+<p>	To use Filckr widget styled as in our theme you will have to install plugin <a href="http://wordpress.org/extend/plugins/quick-flickr-widget/"><strong>Quick Flickr Widget</strong></a>.</p>
+</section>
+<section id="adding_frontpage">
+	<div class="page-header"><h3>Adding Frontpage</h3><hr class="notop"></div>
+<p>	To make frontpage and Blog work as it should you have to follow this steps:</p>
+<ol>
+	<li>		Go to your WordPress <em><strong>Pages-&gt;Add new</strong></em></li>
+	<li>		Add new page named <strong>Frontpage</strong> and another named <strong>Blog</strong>. You can leave them empty.</li>
+	<li>		Go to <em><strong>Settings-&gt;Reading-&gt;Front page displays</strong></em></li>
+	<li>		Choose <strong>&quot;A static page (select below)&quot;</strong></li>
+	<li>		In <strong>Front page:</strong> choose <strong>Frontpage</strong></li>
+	<li>		In <strong>Posts page:</strong> choose <strong>Blog</strong></li>
+	<li>		Save changes.</li>
+	<li>		You are done :-)</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_24.png" style="width: 596px; height: 192px;"></p>
+<p>	Now if you want to add <strong>Blog</strong> as separate page just go to <em><strong>Appearance-&gt;Menus</strong></em> and add selected Blog page to menu.</p>
+<p>	To select what should be visible on front page go to <a href="#setting_frontpage">Main settings menu</a></p>
+</section>
+<section id="adding_frontpage_slider">
+	<div class="page-header"><h3>Adding Frontpage Slider</h3><hr class="notop"></div>
+<p>	Since version 1.1 you can add Revolution slider as front page. If you aren&#39;t familiar with this plugin please check its <a href="http://apollo13.eu/docs/revolution_slider/">documentation</a></p>
+<p>	If you wish to add this slider as front page you have two options in our theme:</p>
+<ol>
+	<li>		Select it from <em><strong>BP Apollo13 theme-&gt;Main settings-&gt;What to show on front page-&gt; Selected Revolution Slider </strong></em>and then select it from <em><strong>Select Revolution Slider to use as front page</strong></em></li>
+	<li>		In same settings select <em><strong>Page</strong></em> and then in this Page you wish to use, select template <strong>Page with slider</strong>(see image below). In this template every revo slider will be stretched to full width of page area(no padding like rest of content). You should insert it as shortocode into content of page(ex. [rev_slider sliderSrider])</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_22.png" style="width: 297px; height: 365px;"></p>
+<p>	When you use Revoultion Slider with our theme best would be to use its <strong><label for="slider_type_3" style="cursor:pointer;">Full Width</label></strong> option, as it is most responsive.</p>
+<p>	<img alt="" src="assets/images/image_25.png"></p>
+</section>
+<section id="adding_new_posts_pages">
+	<div class="page-header"><h3>Adding New Posts/Pages</h3><hr class="notop"></div>
+<p class="info">
+	Pages has almost same options so this description will fit them too</p>
+<h4 id="adding_new_posts_pages_posts">Posts</h4>
+<p>	If you are not familiar with adding posts in WordPress please read <a href="http://codex.wordpress.org/Writing_Posts">http://codex.wordpress.org/Writing_Posts</a></p>
+<p>	Adding posts is same as always in WordPress, but with few tweaks. Firstly you can use <a href="#shortcodes">shortcodes</a> editor. Secondly you use<strong> Featured image</strong> or <strong>Video/Audio</strong>&nbsp; to represent post.</p>
+<p>	For <strong>image</strong> and <strong>video</strong> you can also select how it should be <strong>stretched</strong> or <strong>aligned </strong>and how big it should appear(<strong>medium</strong>, <strong>big</strong> or <strong>original</strong>).</p>
+<p>	Also you can choose to use full width content by turning off <strong>Sidebar</strong>.</p>
+<p>	<img alt="" src="assets/images/image_18.png" style="width: 565px; height: 522px;"></p>
+<h4 id="adding_new_posts_pages_pages">Pages</h4>
+<p>	For pages you have few other options. You can also use <a href="#shortcodes">shortcodes</a> editor and have same options(like in posts) for <strong>featured image/video</strong>. Pages <strong>don&#39;t have sidebar</strong> , but instead you can setup different <strong>page layout</strong>(<strong>left, right, center, full width</strong>) and one of predefined <strong>content colors</strong>(<strong>light</strong> or <strong>dark</strong>).</p>
+<p>	There is also two options for apperance in menu. They will work only for<strong> first level items</strong> in menu.<br>
+	<strong>Menu short description</strong> will show up under name of page in menu.<br>
+	<strong>Menu icon</strong> - You can see available icons at <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a>. You have to use code of icon that looks like <em><code>icon-medkit</code></em>. To add more icons separate them with white space.</p>
+<p>	Last thing is setting <strong>backgorund</strong> image. Kind of connected with this is option <strong>Show &quot;hiding cross&quot;</strong> - if set to <strong>automatic</strong> it will show up cross if there is setup some background image or color(probably most of time).</p>
+<p>	<img alt="" src="assets/images/image_17.png" style="width: 573px; height: 958px;"></p>
+<p>	<a name="posts_list"></a></p>
+<h4 id="adding_new_posts_pages_posts_list_blog">Posts list / blog</h4>
+<p>	If in Blog &amp; Archives menu <strong><span class="label-like">Type of post excerpts </span></strong><span class="label-like">is set to</span><strong><span class="label-like"> Auto, </span></strong>then If while writing posts you won&#39;t use <a href="http://en.support.wordpress.com/splitting-content/more-tag/">more tag</a> then theme will use excerpt feature. Excerpt are made automatically, but you can also specify what will be displayed. Just find Excerpt box, and type text you wish <a href="http://codex.wordpress.org/Excerpt">Read more</a>.</p>
+<p>	If you won&#39;t give excerpt either, then post will be cut after first 30 words.</p>
+</section>
+<section id="adding_works">
+	<div class="page-header"><h3>Adding Works</h3><hr class="notop"></div>
+<p>	Before you start anything below, it is good to visit <a href="#works_menu"><strong>Works menu</strong></a></p>
+<p>	<a name="#adding_works_list"></a></p>
+<h4 id="adding_works_adding_works_list">Adding Works list</h4>
+<p>	To add <strong>Works list</strong> to your site first you need to create <strong>Works list</strong> page:</p>
+<ol>
+	<li>		Add new page(<em><strong>Pages-&gt;Add new</strong></em>)</li>
+	<li>		Name it as you wish but keep in mind that if you use nice addresses (eg. yourblog.com/about-me ) than slug of your page have to be <strong>different then slug for portfolio setted in </strong><a href="#works_menu"><strong>Works menu</strong></a>, so everything will work correct. Best name this page as<strong> </strong>&quot;Works&quot;.<br>
+		<img alt="" src="assets/images/image_27.png" style="width: 393px; height: 74px;"></li>
+	<li>		From template list choose <strong>Works list</strong>.</li>
+	<li>		<strong>Publish</strong> Page.</li>
+	<li>		Done</li>
+</ol>
+<p>	<img alt="" src="assets/images/image_28.png" style="width: 348px; height: 355px;"></p>
+<p class="info">
+	If you wish to use <strong>front page</strong> as <strong>Works list</strong> then settings for <strong>Works list page</strong> you will find in page you defined as front page in <a href="#adding_frontpage">here</a>.</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<h4 id="adding_works_add_new_work">Add new work</h4>
+<p>	Adding new work is pretty easy. First you should set title and <strong>Featured image</strong> as it is cover of your work which is visible on <strong>Works list page</strong>.</p>
+<p>	<img alt="" src="assets/images/image_4.png" style="width: 322px; height: 366px;"></p>
+<p>	Next you can fill <strong>description about this work</strong> by using main editor and shortcodes under it. You have to set some settings also, lets check image below.</p>
+<p>	<img alt="" src="assets/images/image_19.png" style="width: 620px; height: 865px;"></p>
+<ul>	<li>		<strong>Subtitle</strong> - just additional title, describing more what is it about.</li>
+	<li>		<strong>Internet address</strong> - You can provide link to your work.</li>
+	<li>		<strong>Custom info 1-5</strong> - Five custom fields for more details about work. If empty it won&#39;t be displayed. Use pattern <b>Field name: Field value</b>. Colon(:) is most important to get full result.</li>
+	<li>		<strong>Present media in</strong> - you have 3 options to choose for: <strong>Scroller, Slider</strong> or <strong>Full width photos</strong>.<br>
+		For <strong>Slider</strong> you have 4 more options:
+		<ul>			<li>				<strong>Fit images</strong> - you can use auto(Fit always) or decide in which way images should be streched to fill screen. <strong>Fit when needed</strong> is best for small images, that shouldn&#39;t be streched to bigger sizes, only to smaller(to keep them visible).</li>
+			<li>				<strong>Transition type</strong> - 3 types: <strong>Carousel, Fade</strong> and <strong>no transition</strong>.</li>
+			<li>				<strong>Random slide order</strong> - self explanatory.</li>
+			<li>				<strong>Autoplay </strong>- automatically changes items.</li>
+		</ul>
+	</li>
+</ul>
+<p>	<a name="#adding_items-list"></a></p>
+<p>	Next it is time to add some photos &amp; videos to present our work. Lets check screen below:</p>
+<p>	<img alt="" src="assets/images/image_11.png" style="width: 630px; height: 2145px;"></p>
+<ul>	<li>		If your browser supports multi upload then you can use it to upload many images at once.</li>
+	<li>		You can add title and description for each <strong>photo/video</strong>.</li>
+	<li>		<strong>Color under photo</strong> - useful only in <strong>Slider</strong>.</li>
+	<li>		You can also make photo to be custom <strong>link</strong>. If <strong>link</strong> option is filled, then this photo won&#39;t be visible in lightbox.</li>
+	<li>		If you choose video type, you have to add <strong>link to video</strong>(youtube link, vimeo link, or link to mp4, ogv)</li>
+	<li>		also you may add <strong>video</strong>,<strong>thumb</strong> it will be displayed instead of video placeholder in some cases. If you won&#39;t provide any then:
+		<ul>			<li>				Viemo and Native video will use placeholder</li>
+			<li>				Youtube will use defult youtube thumbnail</li>
+		</ul>
+	</li>
+	<li>		You can also choose to autoplay video.</li>
+</ul>
+<p class="info">
+	In case of<strong> Slider</strong> and <strong>Full width photos</strong> images are loaded in full size(same as uploaded). Important thing here is to keep images in rational dimensions cause uploading here 10MB file could kill user transfer when viewing <strong>single work</strong>. And what would happen if you would have 20 images with 10MB each... :-)</p>
+<p class="prettyprint lang-plain linenums">
+	Here is cite from our user about uploading too big photos, it is <a href="https://customerpanel.me/support-forums/discussion/comment/3151#Comment_3151">from our forum</a>:</p>
+<blockquote>
+	<p>		That is a real shame. For any other photographers that might read this post, there are two very important reasons to keep the images a reasonable size:</p>
+	<p>		1) Loading time. The last thing you want when an agent or client is viewing your portfolio is for them to have to wait more than a split second for an image to load. With a 3MB image and even a reasonable connection speed these people will quickly move on and find another photographer for the job (especially if you have a number of images in your portfolio).</p>
+	<p>		2) Discourage theft of your images. An 800px image will print at 300dpi on a 4x6 but no larger. This makes it more difficult for anyone to use your images without permission or payment. If you provide a 3MB image, you are asking for your work to be stolen. This happens ALL THE TIME.</p>
+	<cite>JackieR0</cite></blockquote>
+<p class="prettyprint lang-plain linenums">
+	&nbsp;</p>
+<p class="prettyprint lang-plain linenums">
+	&nbsp;</p>
+<h4 id="adding_works_adding_multiple_works_list_and_genres">Adding multiple Works list and Genres</h4>
+<p>	You can create multiple <strong>works list</strong> if you wish. To do it, first you have to asign your works to different categories(genres). You can do it by choosing genres while adding work, like you can see on image below:</p>
+<p>	<img alt="" src="assets/images/image_8.png"></p>
+<p>	All your genres can be find in <em><strong>My Works</strong></em> menu under <em><strong>Genre</strong></em></p>
+<p>	<img alt="" src="assets/images/image_7.png"></p>
+<p>	After you asigned different <strong>works</strong> to different genres you may want to add this <strong>Works list</strong> to menu. To do it go to <em><strong>Appearance-&gt;Menus</strong></em> and be sure to activate adding <strong>Works Genres</strong> to menu, just like you can see on image below</p>
+<p>	<img alt="" height="560" src="assets/images/image_9.png" width="650"></p>
+<p class="warning">
+	If you are using <strong>multiple Works list</strong> then template for <a href="#adding_works_list">Works list</a> will display all your <strong>works</strong> with filter, so you can view them by genre.</p>
+</section>
+<section id="adding_galleries">
+	<div class="page-header"><h3>Adding Galleries</h3><hr class="notop"></div>
+<p class="info">
+	For adding <strong>Galleries list</strong> please follow adding of <a href="#adding_works">Works list</a> but while reading please CHANGE all words like &quot;work&quot;, &quot;Works&quot; with &quot;gallery&quot;, &quot;galleries&quot;.</p>
+<p>	There are two type of galleries:</p>
+<p>	1. <a href="http://codex.wordpress.org/The_WordPress_Gallery">WordPress Galleries</a><br>
+	2. In theme Galleries</p>
+<p>	Here we will talk about second type. In each gallery you have few options to set:</p>
+<p>	<img alt="" src="assets/images/image_16.png" style="width: 621px; height: 553px;"></p>
+<ul>	<li>		<strong>Theme</strong> - You have 2 types to select from:
+		<ul>			<li>				<strong>Bricks</strong> with one additional option of type of <strong>hover effect</strong></li>
+			<li>				<strong>Slider</strong> with few more options:
+				<ul>					<li>						<strong>Fit images</strong> - you can use auto(Fit always) or decide in which way images should be streched to fill screen. <strong>Fit when needed</strong> is best for small images, that shouldn&#39;t be streched to bigger sizes, only to smaller(to keep them visible).</li>
+					<li>						<strong>Transition type</strong> - 3 types: <strong>Carousel, Fade</strong> and <strong>no transition</strong>.</li>
+					<li>						<strong>Random slide order</strong> - self explanatory.</li>
+					<li>						<strong>Autoplay </strong>- automatically changes items.</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>		<strong>Background image</strong> - here you can decide to use oroverwrite global background.</li>
+</ul>
+<p>	Next we will have to add some items to our gallery, but it is exactly same process like in case of works, so please see <a href="#adding_items-list">this</a> section.</p>
+</section>
+<section id="contact_page">
+	<div class="page-header"><h3>Contact page</h3><hr class="notop"></div>
+<p>	To add contact page simply create new page and from templates choose <strong>Contact</strong>. In this template, <strong>contact form</strong> will be displayed under page text(content typed in editor). Please also check out <a href="#contact_page_menu">Contact page menu</a> for more settings.</p>
+<p>	<img alt="" src="assets/images/image_3.jpg"></p>
+</section>
+<section id="translating_theme">
+	<div class="page-header"><h3>Translating theme</h3><hr class="notop"></div>
+<p>	Theme comes translated in to few languages and it is prepared for translation, so it will just require some time for you to see our theme in your language(if it isn&#39;t translated to it yet). Important files you will find in theme directory in <strong>beach_apollo/languages/default.po</strong></p>
+<p>	This file should be opened in program like <a href="http://www.poedit.net/">Poedit</a> and translated. After everything is done you have to save your translation with proper name. Names for each country can be found <a href="http://codex.wordpress.org/WordPress_in_Your_Language">here</a> (in <span class="short_text" id="result_box" lang="en"><span class="hps">parenthesis in titles). So for example for </span></span>German - Deutsch<span class="short_text" id="result_box" lang="en"><span class="hps"> you should save files as <strong>de_DE</strong></span></span> and get 2 files: <strong>de_DE.po</strong> and <strong>de_DE.mo</strong>.<br>
+	Copy these files to <strong>beach_apollo</strong><strong>/languages</strong></p>
+<p>	At end you have to go to your WordPress installation root directory and find file <strong>wp-config.php</strong>.<br>
+	There you have to find line that looks like:</p>
+<pre class="prettyprint lang-plain linenums">
+define(&#39;WPLANG&#39;, &#39;en_EN&#39;);
+</pre>
+<p>	and make sure that <strong>code there </strong>is <strong>your language</strong>.</p>
+<p>	After that if everything went fine, you will see theme in your language:-)</p>
+<p>	In every update, file <strong>default.po</strong> may change as we may add some new functions or fix some spelling, but you can use your old translation to get most of work done.</p>
+<p>	Good article about translating theme can be found in <a href="http://www.solostream.com/blog/tutorials/translate-wordpress-theme/">http://www.solostream.com/blog/tutorials/translate-wordpress-theme/</a><br>
+	Also good to read is <a href="http://codex.wordpress.org/Translating_WordPress">http://codex.wordpress.org/Translating_WordPress</a></p>
+<p>	There is also file with translation in backend area in <strong>beach_apollo/languages/admin/default.po</strong>. You can edit it by following same process.</p>
+<p>	Here we post image where to type translated texts in Poedit, as not everyone get it right away.</p>
+<p>	<img alt="" src="assets/images/image_23.jpg"></p>
+</section>
+<section id="modification_of_theme">
+	<div class="page-header"><h3>Modification of theme</h3><hr class="notop"></div>
+<p>	<a name="making_child_theme"></a>Many of you may be tempted to edit theme files, but by doing so you block yourself from geting updates of theme, as you will <strong>loose your changes</strong> when you update theme. Fortunately there is solution - <strong>making child theme</strong>. Even WordPress team advice this as best solution:-)</p>
+<p>	<img alt="" src="assets/images/image_2.jpg"></p>
+<p>	Anyone intrested in this should read <a href="http://codex.wordpress.org/Child_Themes">http://codex.wordpress.org/Child_Themes</a></p>
+<p>	&nbsp;</p>
+<p>	But lets check how to do it with <strong>this theme</strong>.</p>
+<p>	In <strong>file downloaded form ThemeForest</strong> there is attached sampel child theme, so you can start changing theme even faster. To install it follow this steps:</p>
+<ol>
+	<li>		<a href="#installation_update">Install normal theme</a>.</li>
+	<li>		Repeat step 1 but now install theme from <strong>beach_apollo_child.zip</strong></li>
+	<li>		Activate child theme.</li>
+	<li>		Done.</li>
+</ol>
+<p>	Now you can overwrite styles, theme functions and even whole templates. Lets check some examples.</p>
+<h4 id="modification_of_theme_changing_css">Changing CSS</h4>
+<p>	If you want to change color and font size of content area you just have to edit <strong>style.css in child theme</strong> and add:</p>
+<pre class="prettyprint lang-plain linenums">
+#content {
+&nbsp;&nbsp;&nbsp; color: #000;
+&nbsp;&nbsp;&nbsp; font-size: 20px;
+}
+</pre>
+<p>	Now you have black big text :-)<br>
+	<br>
+	Good tool to detect what should you change and where is Firebug for firefox. Here is tutorial how to use it <a href="http://www.youtube.com/watch?v=oe1nqI4fNRc">http://www.youtube.com/watch?v=oe1nqI4fNRc</a>. Any browser has similar tool(under F12 key you can call it).</p>
+<h4 id="modification_of_theme_custom_css">Custom CSS</h4>
+<p>	For changes in css you can also special area in theme <em><strong>BP Apollo13 theme-&gt;Appearance-&gt;Custom CSS</strong></em>. There you can insert your custom css.</p>
+<p class="info">
+	In this theme default stylesheet is loaded from main theme, and then you can overwrite CSS rules in style.css in child theme. After this come user.css with changes set in admin panel. So finally it loads in this order:<br>
+	1. main theme style.css or compressed.css<br>
+	2. child theme style.css<br>
+	3. user.css(settings form admin panel)<br>
+	4. Custom css(it is added at end of user.css)</p>
+<h4 id="modification_of_theme_changing_theme_functions">Changing theme functions</h4>
+<p class="warning">
+	This is not real example, and it wont work with this them. It is only here to demonstrate the idea.</p>
+<p>	Another example, you may wish to change info that is displayed under title of each post(date, author, categories, tags) so you have to define your own version of <strong>a13_post_info()</strong> function. Lets say you wish to remove tags from that list. Just open <strong>functions.php in child theme</strong> and drop this code:</p>
+<pre class="prettyprint lang-plain linenums">
+function a13_post_info() {
+&nbsp;&nbsp;&nbsp; ?&gt;
+&lt;div class=&quot;post-info&quot;&gt;
+&nbsp;&nbsp;&nbsp; &lt;span class=&quot;categories&quot;&gt;&lt;?php _fe(&#39;Category&#39; ); ?&gt;: &lt;?php a13_posted_in( &#39;, &#39; ); ?&gt;&lt;/span&gt;
+&nbsp;&nbsp;&nbsp; &lt;?php echo &#39; &lt;span class=&quot;comments&quot;&gt;&lt;a href=&quot;&#39; . get_comments_link() . &#39;&quot; title=&quot;&#39; . sprintf(__fe( &#39;%d Comment(s)&#39; ), get_comments_number()) . &#39;&quot;&gt;&#39; . sprintf(__fe( &#39;%d Comment(s)&#39; ), get_comments_number()) . &#39;&lt;/a&gt;&lt;/span&gt;&#39;; ?&gt;
+&nbsp;&nbsp;&nbsp; &lt;?php edit_post_link( __fe( &#39;Edit&#39; ) ); ?&gt;
+&lt;/div&gt;
+&lt;?php
+}
+</pre>
+<p>	You have now overwritten main theme function, and your version will be loaded.</p>
+<p class="info">
+	Most interesting functions you will find in <strong>advance/utilities.php</strong>(in main theme) , but there is more functions that you can change in child theme. All functions that can be overwritten has before its definition code: <code>if(!function_exists(&#39;function_name&#39;))</code>. If you wish to change other functions ask on our forum for support in that case or just don&#39;t bother with child theme and change main theme(if you understand imlications;-) ).</p>
+</section>
+<section id="support_forum">
+	<div class="page-header"><h3>Support Forum</h3><hr class="notop"></div>
+<p>	&nbsp;In case of any questions or doubts, do not hesitate to contact us via our Support Forum<strong> </strong><a href="https://customerpanel.me/support-forums/">https://customerpanel.me/support-forums/</a></p>
+<p>	&nbsp;</p>
+<p>	Instruction how to get Purchase Code:</p>
+<p>	<a href="assets/images/image_30.jpg"><img alt="" src="assets/images/image_30.jpg" style="height: 307px; width: 700px;"></a></p>
+</section>
+<section id="image_sizes_video_support_and_others">
+	<div class="page-header"><h3>Image sizes video support and others</h3><hr class="notop"></div>
+<h4 id="image_sizes_video_support_and_others_template_image_sizes">Template image sizes</h4>
+<p>	600 x auto - page, post featured image(medium)<br>
+	960 x auto - page, post featured image(big)<br>
+	100 x 75 - thumbs in sidebar of works<br>
+	auto x 500(can be chaged) - Work Scroller image<br>
+	504 x 384(can be chaged) - Works Covers(Works list)<br>
+	504 x 384(can be chaged) - Galleires Covers(Galleries list)<br>
+	360 x 264(can be chaged) - Gallery bricks<br>
+	&nbsp;</p>
+<h4 id="image_sizes_video_support_and_others_video_audio_support">Video/Audio support</h4>
+<p>	Theme support Youtube and Vimeo videos, and also HTML 5 types.</p>
+<p>	You can insert them by <a href="#shortcodes">shortcodes</a> or as <a href="#adding_new_posts_pages">main post video</a>.</p>
+<p>	For <strong>youtube</strong> best to use links as : http://www.youtube.com/watch?<strong>v=JByDbPn6A1o</strong></p>
+<p>	For vimeo best to use links as: http://<strong>vimeo.com/12280336</strong></p>
+<p>	Any other link will be treated as HTML 5 video. Browsers that understand the HTML5 tag will display MPEG/H.264 (<strong>.mp4</strong>) files, VP8/webm (<strong>.webm</strong>), or Ogg/Theora (<strong>.ogv</strong>) files. Other browsers can use Flash to play the<strong> .mp4</strong> or <strong>.flv</strong>.<br>
+	<br>
+	In pages and posts you can also post audio file. Detection is based on file extension. File will be treated as audio when has one of these extensions: <strong>.mp3, .ogg, .m4a</strong></p>
+<p>	&nbsp;</p>
+</section>
+<section id="plugins_recomendations">
+	<div class="page-header"><h3>Plugins recomendations</h3><hr class="notop"></div>
+<h4 id="plugins_recomendations_wp_paginate">WP Paginate</h4>
+<p>	You can get it from <a href="http://wordpress.org/extend/plugins/wp-paginate/installation/">http://wordpress.org/extend/plugins/wp-paginate/installation/</a>.</p>
+<p>	For blog and archives you can either use theme native pagination or enable this plugin and gain some more controll at it. You just need to install plugin and activate it. Also it would be good if you disable defult plugin stylesheet like shown on image below.<br>
+	<img alt="" src="assets/images/image_29.png"></p>
+<h4 id="plugins_recomendations_addthis">AddThis</h4>
+<p>	You can get it from <a href="http://wordpress.org/extend/plugins/addthis/">http://wordpress.org/extend/plugins/addthis/</a>.</p>
+<p>	AddThis is social plugin that will provide support for social media in your blog and works. Install plugin, configure its options, and you are ready. We done already things that if should look nice with our theme.</p>
+<h4 id="plugins_recomendations_like_button">Like button</h4>
+<p>	We have prepared some styles for &quot;Like&quot; plugin so it looks nice with this theme. If you would like to use it install and activate this plugin http://wordpress.org/extend/plugins/i-recommend-this/</p>
+<p>	Here is recommended configuration of this plugin to work best with our theme:<br>
+	<img alt="" src="assets/images/image_12.png"></p>
+<h4 id="plugins_recomendations_captcha">Captcha</h4>
+<p>	Do you have problems with spam from our contact form or comments form? Install and activate this captcha plugin <a href="http://wordpress.org/extend/plugins/captcha/">http://wordpress.org/extend/plugins/captcha/</a><br>
+	Styles for it are prepared in theme:-)</p>
+<p>	Here is sample configuration:<br>
+	<img alt="" src="assets/images/image_1.png"  ></p>
+<h4 id="plugins_recomendations_rebuliding_thumbnails">Rebuliding Thumbnails</h4>
+<p>	If after changing some theme settings(conected to image sizes) images look weird, then you may have to <strong>regenarate thumbanails</strong>.<br>
+	To do that you will have to use some plugin, we advice <a href="http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/installation/"><strong>AJAX Thumbnail Rebuild</strong></a>. Just &quot;Upload the plugin to your blog, activate it, done. You can then rebuild all thumbnails in the tools section (<em><strong>Tools -&gt; Rebuild Thumbnails</strong></em>).&quot; (copied from plugin page).</p>
+<h4 id="plugins_recomendations_flickr">Flickr</h4>
+<p>	To use Filckr widget styled as in our theme you will have to install plugin <a href="http://wordpress.org/extend/plugins/quick-flickr-widget/"><strong>Quick Flickr Widget</strong></a>.</p>
+<h4 id="plugins_recomendations_high_dpi_screen_users_retina_">High DPI Screen users(Retina)</h4>
+<p>	I bet 80% of you users use retina(or alike) display;-) That may be true in few years from now. To support such users you can use this great plugin <a href="http://wordpress.org/extend/plugins/wp-retina-2x/faq/" rel="nofollow" target="_blank">http://wordpress.org/extend/plugins/wp-retina-2x/faq/</a> . It will serve better quality images for high DPI screens.</p>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>	<strong>The scripts and plugins used is the project:</strong><br>
+	- jQuery (http://jquery.com)<br>
+	- Modernizr (http://modernizr.com/)<br>
+	- Masonry (http://masonry.desandro.com/)<br>
+	- jQuery resize event (http://benalman.com/projects/jquery-resize-plugin/)<br>
+	- VideoJS (http://videojs.com/)<br>
+	- jPlayer by Mark J Panaghiston (http://www.jplayer.org)<br>
+	- hoverIntent (http://cherne.net/brian/resources/jquery.hoverIntent.html)<br>
+	- jQuery mouseWheel Brandon Aaron (http://brandonaaron.net)<br>
+	- FitVids.js ( http://jquery.fitvids.min.js)<br>
+	- Jackbox(extended license)&nbsp; (http://www.codingjack.com)<br>
+	- Automatic Updates For Private And Commercial Themes (http://w-shadow.com/blog/2011/06/02/automatic-updates-for-commercial-themes/)<br>
+	- HTML5 Boilerplate (http://html5boilerplate.com/)<br>
+	- Font Awesome (http://fortawesome.github.io/Font-Awesome/)</p>
+<p>	and lots of internet wisdom out there. Thanks a lot everybody!</p>
+<p>	&nbsp;</p>
+<hr>
+<p>	Once again, thank you so much for purchasing this theme. As we said at the beginning, we&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but we&#39;ll do our best to assist.</p>
+<p>	<strong>Apollo13 Team</strong></p>
+</section>
+
+	</div>
+</body>
+</html>

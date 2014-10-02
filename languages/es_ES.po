@@ -1,0 +1,500 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bp fe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-09 15:40+0100\n"
+"PO-Revision-Date: 2013-04-09 15:40+0100\n"
+"Last-Translator: Apollo13 <support@customerpanel.me>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _fe;__fe\n"
+"X-Poedit-Basepath: D:\\workspace\\Beach Please\\wordpress\\wp-content\\themes"
+"\\beach_apollo\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Error 404"
+msgstr "Error 404"
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivos del autor: %s"
+
+#: archive.php:34
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archivos por categoria: %s"
+
+#: archive.php:36
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archivos por etiqueta: %s"
+
+#: archive.php:38
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivos diarios: %s"
+
+#: archive.php:40
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivos mensuales: %s"
+
+#: archive.php:42
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivos anuales: %s"
+
+#: archive.php:44
+msgid "Blog Archives"
+msgstr "Archivos del blog"
+
+#: archive.php:84 loop.php:24 works-list.php:49
+msgid "Apologies, but no results were found for the requested archive."
+msgstr "Disculpa, no se encontraron resultados con el criterio de búsqueda."
+
+#: archives_template.php:28 page.php:26 single.php:31
+msgid "Pages: "
+msgstr "Páginas:"
+
+#: archives_template.php:34
+#, php-format
+msgid "Latest %d posts"
+msgstr "Últimos %d mensajes"
+
+#: archives_template.php:46
+msgid "By months"
+msgstr "Por meses"
+
+#: archives_template.php:56
+#, php-format
+msgid "Top %d categories"
+msgstr "Top %d categorias "
+
+#: archives_template.php:69
+#, php-format
+msgid "Top %d tags"
+msgstr "Top %d etiquetas "
+
+#: attachment.php:68 attachment.php:70
+#, php-format
+msgid "Return to %s"
+msgstr "Volver a %s"
+
+# By Jan Kowalski
+#: attachment.php:75
+#, php-format
+msgid "By %1$s"
+msgstr "Por %1$s"
+
+# View all posts by Jan Kowalski
+#: attachment.php:78 advance/utilities.php:102
+#, php-format
+msgid "View all posts by %s"
+msgstr "Ver todos los posts por %s"
+
+#: attachment.php:85
+#, php-format
+msgid "<span>Published %1$s</span>"
+msgstr "<span>Publicado %1$s</span>"
+
+#: attachment.php:94
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "Tamaño completo tiene %s pixeles"
+
+#: attachment.php:97
+msgid "Link to full-size image"
+msgstr "Link para la imagen a tamaño completo"
+
+#: attachment.php:105 advance/utilities.php:134 advance/utilities.php:663
+msgid "Edit"
+msgstr "Edita"
+
+#: comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Este post está protegido por contraseña. Escribe la contraseña para ver los "
+"comentarios. "
+
+#: comments.php:25
+#, php-format
+msgid "%d comments"
+msgstr "%d comentarios"
+
+#: comments.php:39
+msgid "Older Comments"
+msgstr "Comentarios antiguos"
+
+#: comments.php:40
+msgid "Newer Comments"
+msgstr "Comentarios recientes"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "Comentarios no permitidos."
+
+#: comments.php:63 advance/utilities.php:480 advance/utilities.php:529
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:66 advance/utilities.php:481 advance/utilities.php:533
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:69
+msgid "Website"
+msgstr "Página web"
+
+#: comments.php:80 advance/utilities.php:483 advance/utilities.php:542
+msgid "Message"
+msgstr "Mensaje"
+
+#: comments.php:81
+msgid "Leave a reply"
+msgstr "Añade un comentario"
+
+#: comments.php:82
+#, php-format
+msgid "Leave a replay to %s"
+msgstr "Añade un comentario respecto %s"
+
+#: comments.php:83 advance/utilities.php:544
+msgid "required"
+msgstr "requerido"
+
+#: comments.php:84 comments.php:85 advance/utilities.php:527
+msgid "Please correct form"
+msgstr "Por favor, corrige el formulario"
+
+#: comments.php:85
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Registrado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Cerrar "
+"sesión\">Wylogować?</a>"
+
+#: comments.php:87
+#, fuzzy
+msgid "Submit Comment"
+msgstr "Enviar formulario"
+
+#: comments.php:88
+msgid "Cancel reply"
+msgstr "Cancela respuesta"
+
+#: header.php:47
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: header.php:49
+msgid "Skip to primary content"
+msgstr "Salta al contenido principal"
+
+#: header.php:50
+msgid "Skip to secondary content"
+msgstr "Salta al contenido secundario"
+
+#: no-content.php:8
+msgid "Go back"
+msgstr "Atrás"
+
+#: no-content.php:8
+msgid "or use Site Map below:"
+msgstr "o usar Site Map debajo "
+
+#: no-content.php:23
+msgid "Main navigation"
+msgstr "Nagevación principal "
+
+#: no-content.php:34
+msgid "<strong>Pages</strong>"
+msgstr ""
+
+#: no-content.php:35
+msgid "<strong>Categories</strong>"
+msgstr ""
+
+#: no-content.php:55
+msgid "<strong>Works</strong>"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "%1$d Search results for \"%2$s\""
+msgstr "%1$d Buscar resultados por \"%2$s\""
+
+#: search.php:47
+#, php-format
+msgid "No Search results for \"%1$s\""
+msgstr "Sin resultados para \"%1$s\""
+
+#: single-work.php:46
+msgid "Visit Site"
+msgstr ""
+
+#: works-list.php:65
+#, fuzzy
+msgid "Filter"
+msgstr "Filtrar por "
+
+#: works-list.php:66
+msgid "All"
+msgstr "Todos"
+
+#: advance/head_scripts_styles.php:104
+msgid "Load more"
+msgstr "Cargue más"
+
+#: advance/utilities.php:53
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: advance/utilities.php:100
+#, fuzzy, php-format
+msgid " by <a class=\"author\" href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr "por <a class=\"author\" href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+
+#: advance/utilities.php:128 advance/utilities.php:129
+#, php-format
+msgid "%d Comment(s)"
+msgstr "%d Comentarios"
+
+#: advance/utilities.php:240
+#, fuzzy
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+"Este post está protegido por contraseña. Escribe la contraseña para ver los "
+"comentarios. "
+
+#: advance/utilities.php:241
+#, fuzzy
+msgid "Submit"
+msgstr "Enviar formulario"
+
+#: advance/utilities.php:415 advance/utilities.php:424
+msgid "Search"
+msgstr "Busca"
+
+#: advance/utilities.php:477
+msgid " - message from contact form"
+msgstr " - mensaje del formulario de contacto"
+
+#: advance/utilities.php:482 advance/utilities.php:537
+msgid "Subject"
+msgstr "Asunto"
+
+#: advance/utilities.php:492
+#, fuzzy
+msgid "Success sending form."
+msgstr "Documento enviado con éxito"
+
+#: advance/utilities.php:496
+#, fuzzy
+msgid "Something wrong. Please try again."
+msgstr "Error. Inténtalo de nuevo!"
+
+#: advance/utilities.php:501
+#, fuzzy
+msgid "Error in form."
+msgstr "Error en el formulario"
+
+#: advance/utilities.php:547
+msgid "Submit form"
+msgstr "Enviar formulario"
+
+#: advance/utilities.php:577
+msgid "Read more"
+msgstr "Leer más"
+
+# /* translators: 1: date, 2: time */
+#: advance/utilities.php:643
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a la(s) %2$s"
+
+#: advance/utilities.php:650
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando moderación."
+
+#: advance/utilities.php:663
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: advance/utilities.php:729
+msgid "Follow us on "
+msgstr "Síguenos en"
+
+#: advance/utilities.php:857
+msgid "Previous"
+msgstr "Anterior"
+
+#: advance/utilities.php:872
+msgid "Next"
+msgstr "Siguiente"
+
+#: advance/utilities.php:950
+msgid "RSS"
+msgstr ""
+
+#: advance/utilities.php:971
+msgid "Back to Works list"
+msgstr ""
+
+#: advance/utilities.php:985
+msgid "Back to Blog"
+msgstr ""
+
+#: advance/widgets.php:46
+msgid "Recent Posts"
+msgstr "Comentarios recientes"
+
+#: advance/widgets.php:167
+msgid "Popular Posts"
+msgstr "Comentarios populares "
+
+#: advance/widgets.php:195
+msgid "comment(s)"
+msgstr "Comentario(s)"
+
+#: advance/widgets.php:287
+msgid "Related Posts"
+msgstr "Comentarios similares"
+
+#: advance/widgets.php:422
+msgid "Recent Comments"
+msgstr "Comentarios recientes"
+
+#: advance/widgets.php:497
+msgid "Twitter"
+msgstr "Twitter"
+
+#: advance/widgets.php:526
+#, php-format
+msgid "about %d seconds ago"
+msgstr "hace %d segundos "
+
+#: advance/widgets.php:527
+msgid "about a minute ago"
+msgstr "hace un minuto"
+
+#: advance/widgets.php:528
+#, php-format
+msgid "about %d minutes ago"
+msgstr "hace %d minutos"
+
+#: advance/widgets.php:529
+msgid "about an hour ago"
+msgstr "hace una hora"
+
+#: advance/widgets.php:530
+#, php-format
+msgid "about %d hours ago"
+msgstr "hace %d horas"
+
+#: advance/widgets.php:531
+msgid "about a day ago"
+msgstr "hace un día"
+
+#: advance/widgets.php:532
+#, php-format
+msgid "about %d days ago"
+msgstr "hace %d días"
+
+#: advance/widgets.php:533
+msgid "view tweet on twitter"
+msgstr "ver en twitter"
+
+#: advance/widgets.php:613
+#, fuzzy
+msgid "Recent Works"
+msgstr "Comentarios recientes"
+
+#~ msgid "Send message"
+#~ msgstr "Enviar mensaje"
+
+#~ msgid "Fade In/Out"
+#~ msgstr "Aumentar/Disminuir"
+
+#~ msgid "Show layout"
+#~ msgstr "Enseñar visualización "
+
+#~ msgid "Hide layout"
+#~ msgstr "Esconder visualización "
+
+#~ msgid "Play"
+#~ msgstr "Play"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "Show info"
+#~ msgstr "Mostar info "
+
+#~ msgid "Hide info"
+#~ msgstr "Esconder info"
+
+#~ msgid "Follow"
+#~ msgstr "Seguir"
+
+#~ msgid "Error 404. The page you're looking for can't be found"
+#~ msgstr "Error 404. La página no se encuentra disponible"
+
+#~ msgid "Albums"
+#~ msgstr "Albumes"
+
+#~ msgid "Hide description"
+#~ msgstr "Esconder descripción "
+
+#~ msgid "Show description"
+#~ msgstr "Mostrar descripción"
+
+#~ msgid "Show thumbnails"
+#~ msgstr "Mostrar miniaturas "
+
+#~ msgid "Share this"
+#~ msgstr "Compartir esto "
+
+#~ msgid "Link"
+#~ msgstr "Enlace"
+
+#~ msgid ""
+#~ "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+#~ "\">permalink</a>."
+#~ msgstr ""
+#~ "Añadir a favoritos <a href=\"%3$s\" title=\"Permalink do %4$s\" rel="
+#~ "\"bookmark\">permalink</a>."
+
+#~ msgid "Tags"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "Type And Press Enter"
+#~ msgstr "Escribir y presionar Enter "
+
+#~ msgid "Site"
+#~ msgstr "Página"
+
+#~ msgid "on"
+#~ msgstr "dnia"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgid "Recent Albums"
+#~ msgstr "Albumes recientes"
+
+#~ msgid "<a href=\"%1$s\" title=\"Home Page\">Go to Home Page</a>"
+#~ msgstr ""
+#~ "<a href=\"%1$s\" title=\"Página principal\">Ir a página principal</a>"

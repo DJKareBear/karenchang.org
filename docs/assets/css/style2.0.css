@@ -1,0 +1,10 @@
+#documenter_sidebar #documenter_logo{
+    display: none;
+}
+#documenter_sidebar ul {
+    height: 90%;
+	margin-top: 0;
+}
+.prettyprint {
+    overflow: auto;
+}

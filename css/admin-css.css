@@ -1,0 +1,362 @@
+/**** MAIN STYLES ****/
+/* LOGO */
+#a13-logo{
+    vertical-align: -5px;
+    margin-right: 10px;
+}
+
+/* save button */
+.apollo13-settings .save-opts{
+	margin-bottom: 20px;
+}
+/* title of settings subgroup */
+.apollo13-settings .postbox h3{
+    border-bottom-width: 0;
+    cursor: pointer;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* setting subgroup parent container */
+.apollo13-settings .postbox .inside{
+	margin: 0;
+    padding: 0;
+}
+.apollo13-settings .postbox.closed .inside{
+	display: none;
+}
+/* help info fo subgroup settings */
+.help-info{
+    background-color: #beffa6;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+/* help info under main title */
+.apollo-help p span:first-child{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    bottom: -3px;
+}
+
+/*---------------
+ * zebra styling */
+.apollo13-settings div.input-parent,
+.shortcodes-fields > div,
+fieldset.added > div{
+	padding: 10px;
+	border-top: 1px solid #DFDFDF; 
+}
+.apollo13-options div.input-parent:nth-child(even),
+.apollo13-metas div.fieldset > div.input-parent:nth-child(even),
+.apollo13-metas div.switch:nth-child(even) > div.input-parent,
+.apollo13-metas div.switch:nth-child(even) div.switch-group div.input-parent:nth-child(even),
+/*.apollo13-metas div.switch:nth-child(odd) div.switch-group div.input-parent:nth-child(odd),*/ /* "breaks" thumbs list*/
+div.fieldset.additive:nth-child(even),
+.shortcodes-fields > div:nth-child(even),
+fieldset.added > div:nth-child(even){
+	background-color: #fff;
+}
+.apollo13-settings div.input-parent:hover,
+.apollo13-metas div.switch:hover > div.input-parent,
+.shortcodes-fields > div:hover,
+fieldset.added > div:hover{
+	background-color: #ffff99 !important;
+}
+div.fieldset.additive div.input-parent:first-child{
+    border-top: none;
+}
+/*---------------
+ * END zebra styling */
+
+/* labels of each setting (settings & meta) */
+.apollo13-settings label,
+.apollo13-settings span.label-like,
+.apollo13-settings label .label-name{
+	color: #000;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 26px;
+	width: 260px;
+}
+/* input + description parent container */
+.apollo13-settings .input-desc{
+	margin-left: 265px;
+}
+/* descriptions to inputs */
+p.desc{
+    color: #999;
+    font-size: 10px;
+    line-height: 1.6em;
+    margin: 10px 0 0;
+    padding-bottom: 5px;
+}
+.empty-type{
+    line-height: 26px;
+}
+
+/*---------------
+ * inputs styling */
+.apollo13-settings .input-desc input[type="text"]{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.apollo13-settings button{
+    font-family: inherit;
+}
+.apollo13-settings .slider-place{
+    margin-top: 15px;
+    width: 300px;
+}
+.apollo13-settings .hidden-input{
+    height: 0;
+    visibility: hidden;
+    padding: 0 !important; /* no need any padding here */
+}
+.apollo13-settings .radio-input label{
+	float: none;
+	font-weight: normal;
+	margin-right: 20px;
+	width: auto;
+}
+.apollo13-settings .radio-input label input{
+	margin-right: 5px;
+}
+.apollo13-settings .textarea-input textarea{
+	height: 200px;
+    padding: 5px;
+    width: 95%;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.shortcodes-fields .textarea-input textarea{
+    width: 500px;
+}
+div.mover{
+    display: none;
+}
+/* Placeholders */
+::-webkit-input-placeholder{
+    color: #a9a9a9 !important;
+}
+:-moz-placeholder{ /* Firefox 18- */
+    color: #a9a9a9 !important;
+}
+::-moz-placeholder{  /* Firefox 19+ */
+    color: #a9a9a9 !important;
+}
+:-ms-input-placeholder{
+    color: #a9a9a9 !important;
+}
+/*---------------
+ * END inputs styling */
+
+
+
+/*---------------
+ * Fonts selector */
+input.sample-text{
+    display: none; /* dbclick shows it */
+    width: 100%;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+span.sample-view{
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+span.sample-view + p{
+    margin: 5px 0 10px;
+}
+select.fonts-choose{
+    float: left;
+    margin-right: 20px;
+}
+.font-info{
+    float: left;
+    width: 300px;
+}
+.font-info h4{
+    margin-top: 0;
+}
+.font-info > div{
+    float: left;
+    width: 50%;
+}
+.font-info label{
+    display: block;
+    float: none;
+    width: auto;
+}
+.font-info input{
+    margin-right: 10px;
+}
+/*---------------
+ * END Fonts selector */
+
+
+/*---------------
+ * Sortable Thumbs */
+.thumb-info{
+    border-top: 1px solid #DFDFDF;
+    cursor: move;
+    min-height: 36px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.thumb-info img{
+    float: left;
+    margin: 2px 2px 0;
+    max-height: 32px;
+    max-width: 40px;
+}
+.thumb-info .thumb-title{
+    line-height: 36px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.thumb-show-fields{
+    color: #21759B;
+    cursor: pointer;
+    display: block;
+    float: right;
+    line-height: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.thumb-show-fields:hover, .thumb-show-fields:focus{
+    color: #d54e21;
+}
+.thumb-fields{
+    border-bottom: 1px solid #DFDFDF;
+    padding: 10px 0 30px;
+}
+/*---------------
+ * END Sortable Thumbs */
+/**********************************************/
+
+
+/**** SHORTCODES GENERATOR ****/
+.shortcodes-fields,
+.shortcodes-codes{
+	display: none;
+}
+.shortcodes-fields{
+	margin: 10px 0 0;
+}
+.shortcodes-fields label{
+	float: none;
+	width: auto;
+}
+.shortcodes-fields span.label-like,
+.shortcodes-fields label .label-name{
+    width: 150px;
+}
+.shortcodes-fields div{
+    padding: 10px;
+    border-top: 1px solid #DFDFDF;
+}
+.shortcodes-fields > div,
+fieldset.added > div{
+    clear: both;
+}
+
+/*---------------
+ * Added field sets */
+#shortcode-generator .added{
+	position: relative;
+}
+#shortcode-generator .added:hover{
+    outline: 2px solid #ff0000;
+}
+#shortcode-generator .added .button{
+	position: absolute;
+        right: 5px;
+        top: 5px;
+}
+/*---------------
+ * END Added field sets */
+
+/*---------------
+ * Add more button */
+.add-more-fields span{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+div.add-more-parent,
+.apollo13-metas > div.add-more-parent,
+div.buttons-parent{
+	border-bottom: 1px solid #DFDFDF;
+	border-top: 1px solid #DFDFDF;
+	padding: 20px;
+	text-align: center;
+}
+/*---------------
+ * END Add more button */
+
+.apollo13-metas,
+#shortcode-generator{
+	margin: 0 -10px;
+}
+.apollo13-metas > div{
+    border-top: none;
+    padding: 0;
+}
+.apollo13-metas .fieldset{
+	padding: 0;
+}
+.fieldset.additive{
+	position: relative;
+    padding: 0;
+}
+span.remove-fieldset{
+	float: right;
+    margin: 6px 10px 0 !important;
+}
+
+.apollo13-metas img.thumb{
+    height: auto;
+    max-height: 150px;
+    max-width: 150px;
+    width: auto;
+}
+
+/* Multi upload area styles */
+.a13-mu-container{
+    text-align: center;
+    padding: 10px;
+}
+.a13-mu-container .button{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* social icons */
+#sortable-socials label img{
+    margin-right: 5px;
+    vertical-align: -3px;
+    height: 16px;
+    width: 16px;
+}
+
+.ui-sortable .thumb img {
+    cursor: pointer;
+}

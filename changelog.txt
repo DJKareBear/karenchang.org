@@ -1,0 +1,99 @@
+<a href="http://apollo13.eu/docs/beach/#!/installation_update_update_theme">How to update</a>
+
+BP 1.3.1
+
+-No more usage of compressed scripts and styles. <a href="http://apollo13.eu/docs/beach/#!/for_updaters_need_to_know">Read more here</a>.
+
+Fixed:
+-not loading blog posts due to not proper ImagesLoaded script(thanks Tubalcain)
+
+----------------
+-Georgia font selection(thanks ron!)
+BP 1.3
+
+Changed:
+-No more usage of compressed scripts and styles. <a href="http://apollo13.eu/docs/beach/#!/for_updaters_need_to_know">Read more here</a>.
+
+Fixed:
+-Georgia font selection(thanks ron!)
+-Switched off keyboard navigation in slider work/gallery with one item only
+-Proper image size for single work slider(thanks Sebastian)
+
+Updated:
+-JackBox Lightbox plugin
+
+----------------
+BP 1.2.3
+
+Updated:
+-Script for font icons(There are added new icons that didn't work with theme)
+
+----------------
+BP 1.2.2
+
+Added:
+-Support for Wordpress MU
+
+Fixed:
+-Facebook Like in JackBox lightbox
+
+----------------
+
+BP 1.2.1
+
+Fixed
+-Issue with imagesLoaded Script that could break loading of blog.
+
+----------------
+
+BP 1.2
+<b>Please check http://apollo13.eu/docs/beach/#!/for_updaters_need_to_know</b>
+
+Added:
+-Displaying of description in slider gallery
+
+Fixed
+-Issue with google map on FireFox
+-French translation(thanks to Eric05)
+
+Changed:
+-Uploading system in admin panel. It uses now system introduced in WP 3.5
+-Upgraded imagesLoaded library which fixes not always showing up images in Internet Explorer browsers
+-(Contact page)Order of contact form and google map for small devices
+
+Removed:
+-Twitter widget since Twitter switched to API 1.1
+
+
+----------------
+BP 1.1.1
+
+Fixed:
+-Issue with images in Single work with media displayed as "full width photos".
+-Issues wth revolution slider in static pages.
+-Issue in gallery with Jetpack plugin enabled
+
+
+
+----------------
+BP 1.1
+
+Added:
+-First level menu icons and descriptions for works and galleries
+-Filtered Galleries list
+-Galleries list as front page option
+-Uncover effect for Works list(Works->Works list page settings)
+-Switching off titles on Works list(Works->Works list page settings)
+-Turning off zoom hover effect in Works list/Galleries list/Gallery bricks
+-Descending sort of items in Works and galleries(Items order option)
+-Custom link for single work. You can now make work go(form works list) to other link instead of going to single work view(Alternative Link option).
+-Revolution slider as option for Front Page
+-Template for page with Revolution slider on top
+
+Fixed:
+-Thumbs of video in lightbox in gallery bricks
+-Colors of titles in dark content page(thanks steverobertson)
+-Front page gallery when Wordpress SEO plugin by Yoast is active
+
+Changed:
+-Behavior of Works list for touch screens(first touch shows title, next goes in to work)
